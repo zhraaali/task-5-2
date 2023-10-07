@@ -1,0 +1,280 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first p{
+    text-align: center;
+    padding: .7rem 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+
+}
+.icons{
+    display: flex;
+    transition: all .3s linear;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.flag img{
+    width: 2em;
+    height: 2em;
+}
+
+.navbar .navbar-brand {
+    background-image: url("./img/R.jpg");
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+.xx{
+    color: white;
+}
+.icon  {
+    color: black;
+}
+
+.mynav{
+height: 4em;
+margin: 0 auto;
+
+}
+
+.basic{
+    height: 35vh;
+    overflow-y: scroll;
+}
+.hero img{
+    width: 20vw;
+    height: 100vh;
+    object-fit: contain;
+}
+
+.slide-text{
+    width: 15em;
+    margin-top: 50%;
+}
+
+.second-slide-text{
+    width: 12em;
+}
+
+.private{
+    background-image: url(./img/marble.jpg);
+   
+}
+
+@media (min-width:576px){
+    .dropdown:hover > .dropdown-menu{
+        display: block;
+        margin-top: 0;
+    
+    } 
+}
+.dropdown-menu img {
+    width: 12em;
+    height: 12em;
+}
+
+
+.card{
+    border: none;
+}
+
+.card img{
+    width: 15em;
+    margin: 0 auto;
+}
+.img img{
+    width: 100%;
+}
+
+.card img:hover{
+    width: 12em;
+    transition: width 1s;
+}
+.card p:hover{
+    color:red;
+
+}
+
+.hotspot1{
+    width: 1vw;
+    height: 1vh;
+    top: 61%;
+    left: 89%;
+    transform: translate(-61%, -88%);
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot1;
+    animation-duration: 1s;
+  animation-iteration-count:infinite ;
+}
+@keyframes hotspot1 {
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.hotspot2{
+    width: 1vw;
+    position: absolute;
+    height: 1vh ;
+    top: 61%;
+    left: 60%;
+    transform: translate(-61%, -88%);
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot2;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hotspot2{
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.hotspot3{
+    width: 1vw;
+    position: absolute;
+    height: 1vh;
+    top: 62%;
+    left: 38%;
+    transform: translate(-61%, -88%);
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot3;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes hotspot3{
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.hotspot4{
+    width: 1vw;
+    position: absolute;
+    height: 1vh;
+    top: 62%;
+    left: 15%;
+    transform: translate(-61%, -88%);
+    background-color: red;
+    border-radius: 50%;
+    animation-name: hotspot4;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hotspot4{
+    0% {background-color: black;}
+    50%{background-color: red;}
+}
+
+.vl1 , .vl3{
+
+    height: 25vh;
+    border-left: 1px solid black;
+}
+
+.vl2 , .vl4{
+
+    height: 30vh;
+    border-left: 1px solid black;
+}
+
+
+.powerimg{
+    width: 10vw;
+
+}
+
+.powerimg2{
+    width: 12vw;
+    height: 12vh;
+}
+
+.centerimg img{
+    width: 27vw;
+    margin-top: 10%;
+}
+.hd img{
+    width: 7vw;
+    height: 12vh;
+    transition: 1s;
+}
+.hd img:hover{
+   height: 8vh;
+    
+}
+
+h4:hover{
+    color: red;
+}
+
+.card{
+    width: calc(100%/4);
+}
+.image-wrapper{
+    height: 22vh;
+    object-fit: contain;
+}
+.image-wrapper img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.five{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    height: 100vh;}
+
+.five .parent{
+    background-color: rgba(0, 0, 0, 0.796);
+    background-size: cover;
+    height: 100vh;
+}
+
+.accordion-item {
+    background-color: rgba(0, 0, 0, 0);
+}
+.accordion-button{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+.form-control{
+    width: 50% ;
+}
+.buton{
+    top: 12%;
+    left: 72.2%;
+
+}
+
+  
+.six{
+    background-image: url(./img/background.jpg);
+    background-size: cover;
+    height: 100vh;} 
+
+.six .parnt{
+    background-color: rgba(0, 0, 0, 0.796);
+    background-size: cover;
+    height: 100vh;
+}
+.footer h4{
+    color: white;
+}
+.footer h4:hover{
+    color: red;
+}
+
+
+
+
+
+
+
